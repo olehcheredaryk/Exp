@@ -40,7 +40,7 @@ namespace MvcPatternDemo.MVC
             );
 
             _processedData = pipeline.Process(finalAmount);
-            
+            NotifyObservers();
         }
     }
 }
